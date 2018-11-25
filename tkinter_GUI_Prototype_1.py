@@ -20,14 +20,14 @@ menu1 = ['Lights','Water','Temp/humidity','Other']
 
 r = 0
 for c in menu1:
-    Button(text=c,bg='black',fg='white', relief=RIDGE,width=25).grid(row=r,column=0)
+    Button(text=c,bg='black',fg='white', relief=RIDGE,width=30,height=8).grid(row=r,column=0)
     #Entry(bg='black', relief=SUNKEN,width=50).grid(row=r,column=1)
     r=r+1
     
 
-Button(text='Up',bg='blue',fg='white', relief=RIDGE,width=25).grid(row=1,column=1)
-Button(text='Down',bg='blue',fg='white', relief=RIDGE,width=25).grid(row=2,column=1)
-Button(text='INFO',bg='blue',fg='white', relief=RIDGE,width=25).grid(row=3,column=1)
+Button(text='Up',bg='blue',fg='white', relief=RIDGE,width=30,height=8).grid(row=1,column=1)
+Button(text='Down',bg='blue',fg='white', relief=RIDGE,width=30,height=8).grid(row=2,column=1)
+Button(text='INFO',bg='blue',fg='white', relief=RIDGE,width=30,height=8).grid(row=3,column=1)
 #button1.grid(row=0,column=0)
 #button2.grid(row=0,column=1)
 #button3.grid(row=1,column=0)
